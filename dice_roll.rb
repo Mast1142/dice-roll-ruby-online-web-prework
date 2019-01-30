@@ -8,5 +8,5 @@ def roll
 end
 
 def roll
-  Array.new(1) {1 + rand 6}
+  Array.new(1) {1+rand 6}
 end
