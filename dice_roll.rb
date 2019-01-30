@@ -6,3 +6,7 @@ def roll
   # code goes here
   1+rand(6)
 end
+
+def roll
+  Array.new(1) {rand 6}
+end
